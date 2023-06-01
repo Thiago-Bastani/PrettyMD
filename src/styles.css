@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+
+blockquote{
+  padding-left: 1.5rem;
+  border-left: 0.3rem solid #000000;
+  background-color: rgba(0,0,0,.03);
+  color: #000000;
+}
+
+a{
+  color: dodgerblue;
+}
+
+h1, h2{
+  width: fit-content;
+  padding-bottom: 0.3rem;
+  margin-bottom: 2rem;
+  border-bottom: 0.1rem solid #bcbcbc;
+}
+
+hr{
+  border-bottom: 0.01rem solid #fefefe;
+  margin-bottom: 1.75rem;
+  margin-top: 1.75rem;
+}

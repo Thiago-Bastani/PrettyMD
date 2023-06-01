@@ -58,12 +58,13 @@ footer {
   width: 47%;
   height: 100%;
   resize: none;
-  overflow: scroll;
-  border: 1px solid black;
+  overflow-y: scroll;
+  border: 1px solid #bababa;
+  padding: 1rem;
 }
 
 .btn{
-  margin: 1rem;
+  margin: 2rem;
   width: 9rem;
   height: 2rem;
   color: #fefefe;
@@ -76,4 +77,20 @@ footer {
   background-color: #fefefe;
   border: 1px solid black;
   transition: 0.3s;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(255,255,255,.05);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #000000;
 }
