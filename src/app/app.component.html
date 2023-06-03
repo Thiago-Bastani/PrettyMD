@@ -15,8 +15,12 @@
       [(ngModel)]="MarkDown"
       (ngModelChange)="mdPreviewfn()"
     ></textarea>
-    <div class="t-area" [innerHTML]="mdPreview"></div>
+    <div  class="t-area" >
+      <div id="htmlData" [innerHTML]="mdPreview"></div>
+    </div>
     <!-- <div class="t-area">{{ mdPreview }}</div> -->
   </div>
-  <button class="btn">Download</button>
+  <input [(ngModel)]="filename" placeholder="Nome do seu arquivo" class="doc_name" type="text">
+  <span class="error">{{error}}</span>
+  <button (click)="download()"  class="btn">Download</button>
 </div>

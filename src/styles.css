@@ -6,6 +6,24 @@ blockquote{
   color: #000000;
 }
 
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 14px;
+}
+.error{
+  color: rgb(163, 10, 10);
+}
+.doc_name{
+  text-align: center;
+  max-width: 250px;
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 30px;
+  border: 1px #666 solid;
+}
+
 a{
   color: dodgerblue;
 }
