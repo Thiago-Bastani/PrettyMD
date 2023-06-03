@@ -53,17 +53,18 @@ footer {
   margin: 1rem;
 }
 
-.t-area{
+.t-area {
   position: relative;
   width: 47%;
   height: 100%;
   resize: none;
   overflow-y: scroll;
+  overflow-x: hidden;
   border: 1px solid #bababa;
   padding: 1rem;
 }
 
-.btn{
+.btn {
   margin: 2rem;
   width: 9rem;
   height: 2rem;
@@ -72,13 +73,12 @@ footer {
   border: none;
 }
 
-.btn:hover{
+.btn:hover {
   color: #191919;
   background-color: #fefefe;
   border: 1px solid black;
   transition: 0.3s;
 }
-
 
 /* width */
 ::-webkit-scrollbar {
@@ -87,7 +87,7 @@ footer {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: rgba(255,255,255,.05);
+  background: rgba(255, 255, 255, 0.05);
 }
 
 /* Handle */
