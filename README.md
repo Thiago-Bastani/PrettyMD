@@ -1,5 +1,71 @@
 # PrettyMD
 
+## Resumo
+
+Depois de só achar soluções pagas para converter arquivos MD para PDF, decidi fazer a minha própria solução open source.
+
+
+####  - Qual a utilidade?
+
+Arquivos MD tem uma sintaxe muito simples, isso pode ser útil para escrever documentos como: currículos, relatórios, documentações de projetos, etc.
+
+####  - Como utilizar? 
+
+Se você tiver familiaridade com projetos Angular, é só clonar e rodar. Mas caso não tenha, coloquei a [documentação padrão do angular](#angular-doc) ao final do arquivo. Em breve o projeto estará hospedado, e você poderá acessa-lo através de um link.
+
+
+#### - Requisitos para rodar o projeto localmente:
+
+- Git
+- NodeJS
+- Editor de texto (Ex.: VS Code)
+
+
+#### - Como rodar o projeto?
+
+Apesar da documentação padrão do angular ao final do arquivo, darei uma breve instrução de como rodar o projeto localmente:
+
+
+
+1. Clone o projeto  
+abra um terminal novo em uma pasta de sua escolha e digite o comando:  
+
+```
+git clone https://github.com/Thiago-Bastani/PrettyMD.git
+```
+
+2. Navegue até a pasta usando o terminal 
+
+```
+cd PrettyMD
+```
+
+3. Instale as dependencias
+
+```
+npm install
+```
+
+4. Rode o projeto
+
+```
+npx ng serve
+```
+
+5. Abra o navegador no link:
+
+```
+http://localhost:4200/
+```
+
+<br>
+
+--------
+
+<br>
+
+# Angular doc.:
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.3.
 
 ## Development server
