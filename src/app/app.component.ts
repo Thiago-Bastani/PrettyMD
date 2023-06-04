@@ -1,20 +1,21 @@
 import { Component } from '@angular/core';
 import { marked } from 'marked';
-
-
+import { SafeHtml } from '@angular/platform-browser';
+import { DomSanitizer } from '@angular/platform-browser';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
   title = 'PrettyMD';
 
   MarkDown!: string;
-  mdPreview!: string;
+  mdPreview!: SafeHtml | null;
 
-  mdPreviewfn(){
-    this.mdPreview = marked.parse(this.MarkDown);
+  constructor(private _sanitizer: DomSanitizer) {}
+
+  mdPreviewfn() {
+    this.mdPreview = this._sanitizer.sanitize(1, marked.parse(this.MarkDown));
   }
-
 }
