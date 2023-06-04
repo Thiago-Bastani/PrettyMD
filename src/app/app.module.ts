@@ -4,16 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 
 import { FormsModule } from '@angular/forms';
+import { ConversorComponent } from './conversor/conversor.component';
 
+import { RouterModule } from '@angular/router';
+import { AppRoutingModule } from './app.routing.module';
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    FormsModule
-  ],
+  declarations: [AppComponent, ConversorComponent],
+  imports: [BrowserModule, AppRoutingModule, FormsModule, RouterModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

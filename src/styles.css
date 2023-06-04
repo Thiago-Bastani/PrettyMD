@@ -22,3 +22,8 @@ hr{
   margin-bottom: 1.75rem;
   margin-top: 1.75rem;
 }
+
+body{
+  background-color: #d3d3d3;
+  overflow: hidden;
+}
