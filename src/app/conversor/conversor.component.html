@@ -1,0 +1,17 @@
+<div class="content" role="main">
+  <div class="row">
+    <textarea
+      class="t-area"
+      [(ngModel)]="MarkDown"
+      (ngModelChange)="mdPreviewfn()"
+      placeholder="# Meu documento MD"
+    ></textarea>
+    <div class="t-area">
+      <div [innerHTML]="mdPreview" id="Content"></div>
+    </div>
+    <!-- <div class="t-area">{{ mdPreview }}</div> -->
+  </div>
+  <div class="row right">
+    <button class="btn" (click)="download()">Download</button>
+  </div>
+</div>
