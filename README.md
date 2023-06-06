@@ -11,7 +11,7 @@ Arquivos MD tem uma sintaxe muito simples, isso pode ser útil para escrever doc
 
 ####  - Como utilizar? 
 
-Se você tiver familiaridade com projetos Angular, é só clonar e rodar. Mas caso não tenha, coloquei a [documentação padrão do angular](#angular-doc) ao final do arquivo. Em breve o projeto estará hospedado, e você poderá acessa-lo através de um link.
+Se você tiver familiaridade com projetos Angular, é só clonar e rodar. Mas caso não tenha, coloquei a [documentação padrão do angular](#angular-doc) ao final do arquivo. Caso queira acessar a ultima release basta visitar o link http://prettymd.bastani.com.br/.
 
 
 #### - Requisitos para rodar o projeto localmente:
