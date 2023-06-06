@@ -15,14 +15,13 @@ footer {
 
 .row {
   width: 100%;
-  height: 25rem;
+  height: fit-content;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 1rem;
 }
 
-.t-area{
+.t-area {
   position: relative;
   width: 50%;
   height: 100%;
@@ -34,22 +33,34 @@ footer {
   outline: none;
 }
 
-.btn{
-  margin: 2rem;
-  width: 9rem;
+.nome-arquivo {
+  position: relative;
+  height: 100%;
+  border: none;
+  padding-left: 1rem;
+  outline: none;
+}
+
+.download {
   height: 2rem;
+  margin: 1rem;
+  overflow-y: hidden;
+}
+
+.btn {
+  width: 9rem;
+  height: 100%;
   color: #fefefe;
   background-color: #191919;
   border: none;
 }
 
-.btn:hover{
+.btn:hover {
   color: white;
-  background-color: #A60003;
+  background-color: #a60003;
   border: none;
   transition: 0.3s;
 }
-
 
 /* width */
 ::-webkit-scrollbar {
@@ -58,7 +69,7 @@ footer {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: rgba(255,255,255,.05);
+  background: rgba(255, 255, 255, 0.05);
 }
 
 /* Handle */
@@ -66,24 +77,23 @@ footer {
   background: #000000;
 }
 
-
-.right{
+.right {
+  height: 30px;
   display: flex;
   flex-direction: row;
   justify-content: right;
 }
 
-
-.conversor{
+.conversor {
   width: 100%;
-  height: 100%;
+  height: 25rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: 2rem;
 }
 
-
-.no-border-left{
+.no-border-left {
   border: 1px solid #aaaaaa;
   border-left: none;
 }

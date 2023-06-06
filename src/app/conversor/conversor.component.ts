@@ -14,6 +14,7 @@ export class ConversorComponent {
 
   MarkDown!: string;
   mdPreview!: SafeHtml | null;
+  nomeArquivo: string = "Nome do arquivo";
 
   constructor(private _sanitizer: DomSanitizer) {}
 
@@ -22,6 +23,6 @@ export class ConversorComponent {
   }
 
   download() {
-    htmlToPdf();
+    htmlToPdf(this.nomeArquivo);
   }
 }

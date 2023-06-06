@@ -1,6 +1,6 @@
 import { jsPDF } from "jspdf";
 
-export default function htmlToPdf() {
+export default function htmlToPdf(nomeArquivo) {
   let contentDiv = document.getElementById("Content");
 
   let pdf = new jsPDF({
@@ -16,7 +16,7 @@ export default function htmlToPdf() {
     },
     margin: [20, 20, 20, 20],
     callback: function (pdf) {
-      pdf.save("Exemplo.pdf");
+      pdf.save(nomeArquivo);
     },
   });
 }
