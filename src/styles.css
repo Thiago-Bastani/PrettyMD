@@ -2,6 +2,8 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 14px;
+
+  background-color: #d3d3d3;
 }
 
 blockquote {
@@ -30,9 +32,4 @@ hr {
   border-bottom: 0.01rem solid #fefefe;
   margin-bottom: 1.75rem;
   margin-top: 1.75rem;
-}
-
-body{
-  background-color: #d3d3d3;
-  overflow: hidden;
 }
