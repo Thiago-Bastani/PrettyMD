@@ -64,17 +64,17 @@ footer {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 0.5rem;
+  width: 0.45rem;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.2);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #000000;
+  background: rgba(0, 0, 0, 0.6);
 }
 
 .right {
