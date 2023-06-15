@@ -1,17 +1,17 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 9pt;
-  color: #252525;
+  font-size: 8pt;
+  color: #353535;
   background-color: #d3d3d3;
 }
 
 blockquote {
-  width: 300px;
   height: fit-content;
-  padding-left: 1.3rem;
-  border-left: 0.2rem solid rgb(0, 50, 100);
-  color: rgb(0, 50, 100);
+  padding-left: 0.7rem;
+  border-left: 0.17rem solid rgb(130, 130, 255);
+  color: rgb(130, 130, 255);
+  text-justify: center;
 }
 
 a {
